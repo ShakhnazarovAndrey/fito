@@ -1,0 +1,35 @@
+:root {
+  // Цвета
+  --cream: #f5f1ea;
+  --paper: #fbf9f5;
+  --white: #ffffff;
+  --sage: #8fa77e;
+  --sage-dark: #5e7a4e;
+  --sage-soft: #dde5d3;
+  --forest: #1e3527;
+  --forest-2: #2c4a37;
+  --beige: #e7dccb;
+  --blush: #ebd3c8;
+  --gold: #c9a86a;
+  --ink: #18211b;
+  --muted: #5f6b62;
+  --line: rgba(30, 53, 39, 0.12);
+
+  // Шрифты
+  --f-display: "Inter Tight", system-ui, sans-serif;
+  --f-body: "Manrope", system-ui, sans-serif;
+  --f-serif: "Cormorant Garamond", Georgia, serif;
+
+  // Сетка
+  --maxw: 1360px;
+  --pad: clamp(16px, 3vw, 40px);
+  --edge: max(var(--pad), calc((100vw - var(--maxw)) / 2 + var(--pad)));
+  --radius: 24px;
+  --radius-lg: 32px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+$bp-lg: 1100px;
+$bp-md: 900px;
+$bp-sm: 600px;
